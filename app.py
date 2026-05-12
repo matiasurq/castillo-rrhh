@@ -413,6 +413,42 @@ def exportar_ficha_pdf(emp, tipos):
     return buf.read()
 
 
+# ── Inicialización del session_state (DEBE ir antes de cualquier lectura) ────
+def _init_state():
+    defaults = {
+        "vista":      "dashboard",
+        "emp_id":     None,
+        "busqueda":   "",
+        "filtro_suc": "Todas",
+        "filtro_est": "Activos",
+    }
+    for k, v in defaults.items():
+        if k not in st.session_state:
+            st.session_state[k] = v
+
+_init_state()
+
+# ── Header ────────────────────────────────────────────────────────────────────
+st.markdown(f"""
+<div class="castillo-header">
+  <div style="display:flex;align-items:center;gap:12px">
+    <div class="castillo-logo">Castillo</div>
+    <div>
+      <div class="castillo-title">Sistema de Seguimiento RRHH</div>
+      <div class="castillo-subtitle">DESDE 1924</div>
+    </div>
+  </div>
+  <div class="badge-rrhh">RRHH</div>
+</div>
+""", unsafe_allow_html=True)
+
+# ── Función de navegación ─────────────────────────────────────────────────────
+def nav(vista, emp_id=None):
+    st.session_state.vista = vista
+    if emp_id is not None:
+        st.session_state.emp_id = emp_id
+    st.rerun()
+
 # ══════════════════════════════════════════════════════════════════════════════
 # DASHBOARD
 # ══════════════════════════════════════════════════════════════════════════════
