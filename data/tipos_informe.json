@@ -1,0 +1,39 @@
+{
+  "tipos_informe": [
+    {
+      "codigo": "induccion",
+      "label": "Inducción",
+      "emoji": "📋",
+      "color_bg": "#e8f5e9",
+      "color_text": "#2e7d32"
+    },
+    {
+      "codigo": "entrevista_rrhh",
+      "label": "Entrevista RRHH",
+      "emoji": "🤝",
+      "color_bg": "#e3f2fd",
+      "color_text": "#1565c0"
+    },
+    {
+      "codigo": "entrevista_comercial",
+      "label": "Entrevista Comercial",
+      "emoji": "💼",
+      "color_bg": "#e8eaf6",
+      "color_text": "#283593"
+    },
+    {
+      "codigo": "desempeno",
+      "label": "Evaluación Desempeño",
+      "emoji": "📊",
+      "color_bg": "#fff3e0",
+      "color_text": "#e65100"
+    },
+    {
+      "codigo": "seguimiento",
+      "label": "Seguimiento",
+      "emoji": "🔍",
+      "color_bg": "#f3e5f5",
+      "color_text": "#6a1b9a"
+    }
+  ]
+}
