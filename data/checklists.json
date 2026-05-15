@@ -1,0 +1,70 @@
+{
+  "plantillas": [
+    {
+      "puesto_clave": "jefe de ventas",
+      "nombre": "Jefe de Ventas a Cargo",
+      "secciones": [
+        {
+          "titulo": "Bienvenida e integración",
+          "items": [
+            "Presentación formal al equipo de la sucursal",
+            "Recorrida completa de la sucursal (depósito, salón, oficinas)",
+            "Entrega de uniforme y materiales de trabajo",
+            "Presentación a clientes clave y proveedores locales",
+            "Reunión de bienvenida con Dirección Comercial"
+          ]
+        },
+        {
+          "titulo": "Sistemas y accesos",
+          "items": [
+            "Alta en sistema de gestión (usuario y contraseña)",
+            "Capacitación en sistema de ventas y préstamos",
+            "Acceso a sistema de stock e inventario",
+            "Configuración de medios de pago y caja",
+            "Acceso a reportes y tablero de KPIs"
+          ]
+        },
+        {
+          "titulo": "Normas y procesos operativos",
+          "items": [
+            "Lectura y firma de Directivas Comerciales vigentes",
+            "Conocimiento de políticas de crédito y cobranzas",
+            "Procedimiento de auditorías internas",
+            "Normas de exhibición y mantenimiento del salón",
+            "Protocolo de reclamos y resolución de conflictos",
+            "Procedimiento de cierre de caja y rendición diaria"
+          ]
+        },
+        {
+          "titulo": "Objetivos y gestión comercial",
+          "items": [
+            "Entrega y explicación de objetivos comerciales del período",
+            "Revisión de KPIs e indicadores de gestión esperados",
+            "Análisis de resultados históricos de la sucursal",
+            "Reunión con líder saliente o referente de área (si aplica)",
+            "Definición del plan de acción primeros 30 días"
+          ]
+        },
+        {
+          "titulo": "Liderazgo del equipo",
+          "items": [
+            "Entrevista individual con cada integrante del equipo",
+            "Revisión de legajos y situación de cada colaborador",
+            "Conocimiento de roles, turnos y responsabilidades",
+            "Primera reunión de equipo liderada por el JV",
+            "Definición de expectativas y criterios de trabajo al equipo"
+          ]
+        },
+        {
+          "titulo": "Imagen institucional",
+          "items": [
+            "Revisión de cumplimiento de normas de imagen en sucursal",
+            "Conocimiento de campañas y promociones vigentes",
+            "Presentación ante instituciones y referentes locales",
+            "Verificación de folletería, cartelería y exhibición"
+          ]
+        }
+      ]
+    }
+  ]
+}
